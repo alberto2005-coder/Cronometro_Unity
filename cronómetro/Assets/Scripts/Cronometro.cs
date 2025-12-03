@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 /// <summary>
-/// Controla el cronómetro principal, su estado (iniciar, detener, reiniciar) y el registro de vueltas.
+/// Controla el cronómetro principal, su estado y el registro de vueltas.
 /// </summary>
 public class Cronometro : MonoBehaviour
 {
@@ -28,6 +28,10 @@ public class Cronometro : MonoBehaviour
     public Color colorMejorTiempo = new(0.686f, 0.655f, 0.898f, 1f); // Lila / Morado
     public Color colorPeorTiempo = new(0.965f, 0.318f, 0.318f, 1f);  // Rojo
     public Color colorTextoSecundario = Color.white; // Blanco por defecto
+
+    [Header("Estilo de Texto")] // <--- NUEVO
+    [Range(0f, 1f)]
+    public float grosorOutline = 0.2f; // <--- NUEVO: Controla el grosor desde aquí
 
     // ---------------------- Variables Internas ----------------------
     private float tiempoTotalTranscurrido = 0f;
@@ -69,8 +73,8 @@ public class Cronometro : MonoBehaviour
             return;
         }
 
-        ConfigurarBoton(botonReiniciar, "Restablecer");
-        ConfigurarBoton(botonVuelta, "Vuelta");
+        ConfigurarBoton(botonReiniciar, "RESTABLECER");
+        ConfigurarBoton(botonVuelta, "VUELTA");
     }
 
     void ConfigurarBoton(Button boton, string texto)
@@ -160,11 +164,13 @@ public class Cronometro : MonoBehaviour
             controladorVuelta.fondoTarjeta.color = Color.white;
         }
 
+        // <--- CAMBIO AQUÍ: Ahora pasamos el grosorOutline al final --->
         controladorVuelta.Configurar(
             numeroVuelta,
             FormatearTiempo(tiempoVuelta),
             FormatearTiempo(tiempoTotal),
-            colorTextoSecundario
+            colorTextoSecundario,
+            grosorOutline 
         );
 
         controladoresVueltasUI.Insert(0, controladorVuelta);
@@ -222,7 +228,7 @@ public class Cronometro : MonoBehaviour
 
         if (estaActivo)
         {
-            textoBotonIniciarPausar.text = "Detener";
+            textoBotonIniciarPausar.text = "DETENER";
             if (spriteDetener != null)
             {
                 imagenBotonIniciarPausar.sprite = spriteDetener;
@@ -231,7 +237,7 @@ public class Cronometro : MonoBehaviour
         }
         else
         {
-            textoBotonIniciarPausar.text = "Empezar";
+            textoBotonIniciarPausar.text = "EMPEZAR";
             if (spriteEmpezar != null)
             {
                 imagenBotonIniciarPausar.sprite = spriteEmpezar;
