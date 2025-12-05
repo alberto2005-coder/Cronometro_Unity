@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Simulator
   m_RootView: {fileID: 3}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -349,7 +349,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 55
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -394,9 +394,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 24b50000
       m_LastClickedID: 0
-      m_ExpandedIDs: 9607ffff06fbffffceb10000e8b10000f2b1000006b2000020b20000
+      m_ExpandedIDs: 06fbffffc4b10000ceb10000e8b1000006b2000016b2000020b20000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -460,10 +460,10 @@ MonoBehaviour:
       displayed: 1
       id: unity-transform-toolbar
       index: 0
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":24.799999237060548},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
-      snapOffset: {x: 24, y: 0}
+      snapOffset: {x: 24, y: 24.8}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       layout: 4
@@ -768,10 +768,10 @@ MonoBehaviour:
       displayed: 1
       id: unity-scene-view-camera-mode-toolbar
       index: 2
-      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":24.799999237060548},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
-      snapOffset: {x: 24, y: 0}
+      snapOffset: {x: 24, y: 24.8}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       layout: 1
@@ -986,9 +986,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 1159.5892, y: 2133.7979, z: -0.0000015897676}
+    m_Target: {x: 1175.1819, y: 2152.404, z: -0.0013529804}
     speed: 2
-    m_Value: {x: 1159.213, y: 2126.0237, z: 0.0013546854}
+    m_Value: {x: 1175.1819, y: 2152.404, z: -0.0013529804}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 2
@@ -1038,9 +1038,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1301.5673
+    m_Target: 1360.1378
     speed: 2
-    m_Value: 1245.5189
+    m_Value: 1360.1378
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1157,7 +1157,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/art/UI
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1167,15 +1167,15 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 68
   m_LastFolders:
-  - Assets
+  - Assets/art/UI
   m_LastFoldersGridSize: 68
   m_LastProjectPath: C:\Users\alors\Downloads\My project (2)
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 44b40000
-    m_LastClickedID: 46148
+    m_SelectedIDs: 28b50000
+    m_LastClickedID: 46376
     m_ExpandedIDs: 0000000044b40000aab4000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1234,7 +1234,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300003e70000042b8000008b30000328b01005eb400009eba000052b4000056b4000054b4000016bb0000fe0d0100261001002c10010090ff0000381001001c23010026230100acb4000054b5000060b50000a6b80000acb80000c6c50000c8c50000cac50000d8c50000d6c500003cd800005cc80000d6b80000dab8000006c4000074c70000a2020000e6c000006ab2000068b2000066b20000c0c7000000000000
+    m_ExpandedInstanceIDs: c62300003e70000042b8000008b30000328b01005eb400009eba000052b4000056b4000054b4000016bb0000fe0d0100261001002c10010090ff0000381001001c23010026230100acb4000054b5000060b50000a6b80000acb80000c6c50000c8c50000cac50000d8c50000d6c500003cd800005cc80000d6b80000dab8000006c4000074c70000a2020000e6c000006ab2000068b2000066b20000c0c700000000000024b50000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
