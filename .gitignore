@@ -1,0 +1,61 @@
+# This .gitignore file is for projects built with Unity (https://unity3d.com/)
+
+# --- Project specific ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+MemoryCaptures/
+Recording/
+
+# --- Assets ---
+# Uncomment this line if you wish to ignore the Assets/ folder (completely ignores Unity project)
+#/[Aa]ssets/
+
+# --- Visual Studio / Rider / VS Code ---
+.vs/
+.vsconfig
+*.sln
+*.csproj
+*.unityproj
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svclog
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# --- Crashlytics ---
+crashlytics-build.properties
+
+# --- OS generated ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --- Unity Generated ---
+[Ee]xport/
+[Aa]ssets/Plugins/Android/libs/
+[Aa]ssets/Plugins/iOS/libs/
+
+# --- Meta files ---
+# Usually meta files are tracked, but some folders' meta files can be ignored
+/[Ll]ibrary.meta
+/[Tt]emp.meta
+/[Oo]bj.meta
+/[Bb]uild.meta
+/[Bb]uilds.meta
+/[Ll]ogs.meta
+/[Uu]serSettings.meta
